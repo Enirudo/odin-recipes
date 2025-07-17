@@ -1,0 +1,29 @@
+* 
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.recipes-card {
+    display: inline-block;
+    padding: 10px;
+}
+
+.image {
+    background-color: antiquewhite;
+    border: 2px dotted black;
+}
+
+.content {
+    border: 2px solid lightpink;
+    background-color: antiquewhite;
+}
+
+li {
+    list-style: none;
+}
