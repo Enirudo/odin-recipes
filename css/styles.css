@@ -16,7 +16,8 @@
 
 .image {
     background-color: antiquewhite;
-    border: 2px dotted black;
+    border: 5px dotted darkred;    
+    height: 500px;
 }
 
 .content {
@@ -24,13 +25,22 @@
     background-color: antiquewhite;
 }
 
+h1, li {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2em;
+    background-color: antiquewhite;
+    color: darkred;
+    padding: 20px
+ }
+
 li {
     list-style: none;
 }
 
-h1, li {
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 /* Default link style */
 a {
