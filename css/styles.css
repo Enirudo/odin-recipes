@@ -23,10 +23,11 @@
 .content {
     border: 2px solid lightpink;
     background-color: antiquewhite;
+    vertical-align: top;
 }
 
 img {
-    width: 50%;
+    width: 25%;
     height: auto;
 }
 
