@@ -38,9 +38,17 @@ h1 {
     padding: 20px
  }
 
+/* ul {
+    display: inline;
+    list-style: none;
+    align-items: center;
+} 
+*/
+
 ul li {
     /* display: inline; */
-    list-style: none;
+    /* list-style: none; */
+    align-items: center;
     border: black solid 1px;
 }
 
@@ -81,16 +89,6 @@ a:active {
     /* flex-wrap: wrap; */
 }
 
-.recipes-card ul li {
-    /* display: block; */
-    /* padding: 10px;
-    margin: 10px;     */
-    /* height: 300px; */
-    /* flex: auto; */
-}
-
-.recipes-card ul li img {
-}
 .image {    
     background-color: yellow;
     display: block;
