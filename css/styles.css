@@ -12,12 +12,14 @@
 .recipes-card {
     display: inline-block;
     padding: 10px;
-    margin: 10px;
+    margin: 10px;    
+    width: max-content;
 }
 
 .image {
-    background-color: antiquewhite;
-    border: 5px dotted darkred;    
+    border: 5px dotted darkred;
+    width: 25%;
+    height: auto;    
 }
 
 .content {
@@ -27,8 +29,7 @@
 }
 
 img {
-    width: 25%;
-    height: auto;
+    
 }
 
 body {
