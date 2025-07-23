@@ -12,48 +12,25 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: maroon;
-    /* color: darkslategray; */
     line-height: 1.6;
-}
-
-div {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
-    gap: 0.5em;
+    margin: 10px;
 }
 
 img {
-    background-color: green;
-    border: 5px dotted darkred;
-    width: 25%;
+    display: flex;
+    width: 75%;
     height: auto;
 }
 
 h1 {
-    /* display: in; */
-    font-size: 2em;
-    color: darkred;
+    font-size: 5em;
+    color: white;
     padding: 20px
  }
 
-/* ul {
-    display: inline;
-    list-style: none;
-    align-items: center;
-} 
-*/
-
-ul li {
-    /* display: inline; */
-    /* list-style: none; */
-    align-items: center;
-    border: black solid 1px;
-}
-
 /* Default link style */
 a {
+  display: flex;
   color: blue;
   text-decoration: none;
   font-weight: bold;
@@ -80,27 +57,48 @@ a:active {
   color: orange;
 }
 
-.recipes-card {
-    background-color: ghostwhite;
+.recipes {
     display: flex;
-    padding: 10px;
-    margin: 10px;    
-    /* width: max-content; */
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
 
-.image {    
-    background-color: yellow;
-    display: block;
-    border: 5px dotted darkred;
-    width: 25%;
+.recipes-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.image {   
+    display: flex;  
+    background-color: yellow;   
+    /* border: 5px dotted darkred; */
     height: auto;    
 }
 
-.content {
+.main {
+  display: flex;
+  background-color: lightblue;
+  gap: 0.5em;
+}
+
+.container {
     display: inline-block;
-    background-color: whitesmoke;
-    border: 2px solid lightpink;
-    /* background-color: antiquewhite; */
+    background-color: maroon;
+    /* border: 2px solid lightpink; */
     vertical-align: top;
+    text-align: center;
 }
