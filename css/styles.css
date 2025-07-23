@@ -45,8 +45,10 @@ h1 {
     padding: 20px
  }
 
-li {
+ul li {
+    display: inline;
     list-style: none;
+    border: black solid 1px;
 }
 
 /* Default link style */
