@@ -9,44 +9,37 @@
     padding: 0%;
 }
 
-.recipes-card {
-    display: inline-block;
-    padding: 10px;
-    margin: 10px;    
-    width: max-content;
-}
-
-.image {
-    border: 5px dotted darkred;
-    width: 25%;
-    height: auto;    
-}
-
-.content {
-    border: 2px solid lightpink;
-    background-color: antiquewhite;
-    vertical-align: top;
-}
-
-img {
-    
-}
-
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
-    color: darkslategray;
+    background-color: maroon;
+    /* color: darkslategray; */
     line-height: 1.6;
 }
 
+div {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    gap: 0.5em;
+}
+
+img {
+    background-color: green;
+    border: 5px dotted darkred;
+    width: 25%;
+    height: auto;
+}
+
 h1 {
+    /* display: in; */
     font-size: 2em;
     color: darkred;
     padding: 20px
  }
 
 ul li {
-    display: inline;
+    /* display: inline; */
     list-style: none;
     border: black solid 1px;
 }
@@ -77,4 +70,39 @@ a:hover {
 /* Active (clicked) link */
 a:active {
   color: orange;
+}
+
+.recipes-card {
+    background-color: ghostwhite;
+    display: flex;
+    padding: 10px;
+    margin: 10px;    
+    /* width: max-content; */
+    /* flex-wrap: wrap; */
+}
+
+.recipes-card ul li {
+    /* display: block; */
+    /* padding: 10px;
+    margin: 10px;     */
+    /* height: 300px; */
+    /* flex: auto; */
+}
+
+.recipes-card ul li img {
+}
+.image {    
+    background-color: yellow;
+    display: block;
+    border: 5px dotted darkred;
+    width: 25%;
+    height: auto;    
+}
+
+.content {
+    display: inline-block;
+    background-color: whitesmoke;
+    border: 2px solid lightpink;
+    /* background-color: antiquewhite; */
+    vertical-align: top;
 }
