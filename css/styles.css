@@ -18,7 +18,7 @@ body {
 
 img {
     display: flex;
-    width: 75%;
+    width: 100%;
     height: auto;
 }
 
@@ -31,6 +31,10 @@ h1 {
 /* Default link style */
 a {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
   color: blue;
   text-decoration: none;
   font-weight: bold;
@@ -60,7 +64,7 @@ a:active {
 .recipes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
 }
@@ -85,20 +89,12 @@ a:active {
 .image {   
     display: flex;  
     background-color: yellow;   
-    /* border: 5px dotted darkred; */
     height: auto;    
-}
-
-.main {
-  display: flex;
-  background-color: lightblue;
-  gap: 0.5em;
 }
 
 .container {
     display: inline-block;
     background-color: maroon;
-    /* border: 2px solid lightpink; */
     vertical-align: top;
     text-align: center;
 }
